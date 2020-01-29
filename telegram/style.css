@@ -1,0 +1,136 @@
+body {
+    background-color: #E7EAEF;
+    font: 13px/18px Tahoma,sans-serif,Arial,Helvetica;
+}
+
+.blue {
+    background-color: #5682a3;
+}
+
+.top {
+    width: 100%;
+    height: 226px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.logo {
+    display: inline-block;
+    width: 50%;
+    padding: 21px 15px 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.next-button {
+    padding: 27px 15px 28px;
+    display: inline-block;
+    position: absolute;
+    height: 75px;
+    top: 0;
+    right: 0;
+}
+
+.form {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 15%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 405px;
+    height: 40%;
+}
+
+a.logo-link {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+a.logo-link:hover {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.next-button a {
+    color: white;
+    margin: auto;
+    font-weight: 700;
+    position: relative;
+    bottom: 5 px;
+}
+
+.next-button a:hover { 
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+a p {
+    position: relative;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 0;
+    bottom: 1px;
+}
+
+.logo i {
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.logo p {
+    display: inline-block;
+    position: relative;
+    bottom: 5px;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    user-select: none;
+}
+
+.form, .login-head, .login-form, .logo {
+    height: 75px;
+    z-index: 2;
+}
+
+.login-head {
+    color: white;
+}
+
+.login-form {
+    height: auto;
+    box-shadow: 0 1px 1px rgba(97,127,152,.2);
+    padding: 44px 65px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.login-form p, .login-form .form-group label {
+    color: #999;
+    line-height: 20px;
+}
+
+.login-form .form-group label {
+    font-size: 12px;
+}
+
+footer {
+    margin: auto;
+    text-align: center;
+    margin-top: 17px;
+}
+
+footer p {
+    color: #84a2bc;
+}
+
+footer a {
+    text-decoration: underline;
+}

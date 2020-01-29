@@ -1,0 +1,173 @@
+body {
+    font-family: Helvetica;
+}
+
+header {
+    background-image: linear-gradient(0deg, #3B5998 0%, #3C5A99 52%, #4E69A2 100%);
+    color: white;
+    height: 83px;
+    border-bottom: 1px solid #133783;
+}
+
+.strip {
+    margin: 0 auto;
+    padding-top: 13px;
+    width: 980px;
+}
+
+header .logo {
+    display: inline-block;
+    margin-top: 17px;
+}
+
+header .login-form {
+    width: 500px;
+    float: right;
+    font-size: 12px;
+    margin-right: 10px;
+    position: relative;
+    left: 57px;
+}
+
+.form-group, label {
+    margin-bottom: 0;
+}
+
+.login-form input {
+    width: 150px;
+    border: 1px solid #0E1F56;
+    padding: 2px;
+    padding-left: 3px;
+}
+
+input {
+    outline: none;
+    box-shadow:none !important;
+}
+
+#email-label, #email-input, #password-label, #password-input {
+    padding: 0;
+}
+
+#email-label, #password-label {
+    padding-bottom: 2px;
+}
+
+.login-form button {
+    background-color: #4267B2;
+    border: 1px solid #29487D;
+    color: white;
+}
+
+.login-form p {
+    margin-top: 2px;
+    color: #99B2CC;
+}
+
+div.main {
+    background-image: linear-gradient(white, #D3D8E8);
+    height: 640px;
+}
+
+.container {
+    padding: 0 80px;
+}
+
+.left {
+    float: left;
+    color: #0e385f;
+    font-family: inherit;
+    width: 565px;
+    margin-right: 15px;
+    font-size: 19.8px;
+    padding-top: 28px;
+}
+
+.left strong {
+    display: block;
+    width: 450px;
+}
+
+.right {
+    float: right;
+    font-family: inherit;
+    width: 400px;
+    padding-top: 4px;
+    line-height: 1.55;
+    color: #333;
+}
+
+.right form input::placeholder {
+    font-size: 18px;
+    color: #BDBDB0;
+}
+
+#registration {
+    font-size: 36px;
+    font-weight: 550;
+}
+
+#fast-and-easy {
+    font-size: 19px;
+    color: #1d2129;
+}
+
+select {
+    float: left;
+    font-size: 12px;
+    margin-top: 3px;
+    padding: 6px;
+    border: 1px solid #ccd0d5;
+}
+
+#month {
+    padding-right: 7px;
+}
+
+.datetime-picker {
+    margin-top: 27px;
+    align-items: center;
+    align-content: center;
+}
+
+.datetime-picker strong, .gender-picker strong {
+    color: #90949c;
+}
+
+.datetime-picker i, .gender-picker i {
+    display: inline-block;
+    margin: 8px 10px;
+    color: #606770;
+}
+
+.gender-picker {
+    margin-top: 9px;
+}
+
+.gender-picker label {
+    position: relative;
+    bottom: 3px;
+    font-size: 18px;
+}
+
+a {
+    color: #385898;
+}
+
+.right form button {
+    border-width: 1px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    line-height: 126%;
+    min-width: 194px;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-weight: bold;
+    color: white;
+    padding: 7px 20px;
+    background: linear-gradient(#67ae55, #578843);
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+}
